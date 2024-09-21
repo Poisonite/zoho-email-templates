@@ -1,2 +1,1 @@
-
-Copyright (C) 2024 Zac Ingoglia
+Copyright (C) 2024 Poisonite LLC - Zac Ingoglia
