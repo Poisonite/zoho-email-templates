@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PoisoniteLLCInvoiceEmail</title>
+</head>
+
+<body bgcolor="#b7b7b7">
+<table width="600" height="auto"border="0" cellpadding="5" bgcolor="#ffffff" align="center">
+  <tbody>
+    <tr>
+      <td colspan="3" bgcolor="#e7e7e7"><img src="https://github.com/Poisonite/zoho-email-templates/blob/main/assets/images/logo_Invoice.png?raw=true" width="100%" height="auto" alt="Poisonite LLC"/></td>
+    </tr>
+
+    <tr>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center"><img src="https://github.com/Poisonite/zoho-email-templates/blob/main/assets/images/barcode.png?raw=true" width="33%" height="auto" alt=""/></td>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center"><img src="https://github.com/Poisonite/zoho-email-templates/blob/main/assets/images/cal.png?raw=true" width="34%" height="auto" alt=""/></td>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center"><img src="https://github.com/Poisonite/zoho-email-templates/blob/main/assets/images/cash.png?raw=true" width="33%" height="auto" alt=""/></td>
+    </tr>
+    <tr>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center">Invoice #: <br /><strong>%InvoiceNumber%</strong></td>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center">Invoice Date: <br /><strong>%InvoiceDate%</strong></td>
+      <td bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;" align="center">Total: <br /><strong>%Total%</strong></td>
+    </tr>
+    <tr>
+	   <td colspan="3" align="center" bgcolor="#ffffff" style="text-align: center; margin: 25px 0"><hr color="#e7e7e7"></td>
+    </tr>
+    <tr>
+      <td colspan="3" bgcolor="#ffffff" style="font-family: Montserrat, sans-serif;"><br>
+		<strong>Dear %CustomerName%,</strong>
+
+                              <p style="font-family: Montserrat, sans-serif; font-size: 14px; ">
+                                Thank you for your business! Your invoice is attached as a PDF.
+                              </p>
+                              <p style="font-family: Montserrat, sans-serif; font-size: 14px; ">
+                                You may choose to pay through any of the accepted payment terms outlined in your agreement.
+                              </p>
+                              <p style="font-family: Montserrat, sans-serif; font-size: 14px; ">
+                                Payment of this invoice must be received on or before: <strong>%DueDate%</strong>
+                              </p>
+		</td>
+    </tr>
+	 <tr>
+	   <td colspan="3" align="center" bgcolor="#ffffff" style="text-align: center; margin: 25px 0"><hr color="#e7e7e7"></td>
+    </tr>
+	 <tr>
+      <td colspan="3" align="center" bgcolor="#ffffff" style="font-family: Montserrat, sans-serif; font-size: 10px; line-height: 12px; padding: 10px">
+ The payee acknowledges the accuracy of the charges described by paying the accompanying invoice.<br><br>
+Any inaccuracies should be brought to the attention of <a rel="noopener" href="mailto:%CompanyEmail%" target="_blank">%CompanyEmail%</a> as soon as possible.
+
+		 </td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center" bgcolor="#13a42c" style="padding: 30px; font-family: Montserrat, sans-serif; font-size: 14px; color: white;">
+<strong>%CompanyName% &copy; 2024</strong><br>
+60 East Amy Court, Shelton, WA 98584
+		</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
